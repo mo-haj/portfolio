@@ -1,0 +1,59 @@
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); /* Adjust the shadow values as needed */
+}
+
+.doctor-name {
+    font-size: 24px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.doctor-info {
+    text-align: left;
+    padding-left: 20px; /* Adjust the left padding as needed */
+}
+
+.doctor-info p {
+    margin: 5px 0;
+    line-height:4;
+}
+/* Style for input fields for edit */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Style for submit button for edit */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
