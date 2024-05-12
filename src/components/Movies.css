@@ -1,0 +1,102 @@
+.Container{
+     width: 85% !important;
+     position: relative;
+     top:50px;
+     left: 90px;
+     margin: auto;
+     background-color:rgb(241, 241, 241,0.1);
+     border-radius: 20px;
+}
+.card{
+padding: 0px !important;
+border-radius: 20px !important;
+border: 2px solid gainsboro !important;
+height: 300px !important;
+margin: 50px;
+margin-bottom: 0px !important;
+margin-top: 0px !important;
+background-color: rgba(241, 241, 241, 0.822) !important;
+}
+.card-title{
+    margin: auto;
+    color: black;
+    font-weight: bolder;
+}
+.number{
+    margin: auto !important ;
+    width: auto !important;
+    margin-top: 25px !important;
+}
+.form-outline input{
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 150px;
+}
+.row{
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    padding-bottom: 10px !important;
+}
+.images-movies{
+    width:50% !important;
+    margin: auto;
+    height:190px;
+    border: 3px solid gray;
+    border-radius: 20px !important;
+}
+.btn-color{
+    background-color: rgba(47, 150, 168, 0.473) !important;
+}
+.btn-color:hover{
+    background-color: rgba(78, 138, 150, 0.678) !important;
+}
+input{
+    height: 35px !important;
+    margin-top: 1px !important;
+    
+}
+.input-group {
+    margin-top: 5px !important;
+}
+h1{
+    color:rgba(203, 233, 238, 0.918) !important;
+    margin: auto;
+}
+@media screen and (max-width:768px) {
+ 
+    .Container{
+        width: 90% !important;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin: auto;
+        margin-top: 30px;
+        background-color:rgb(241, 241, 241,0.1);
+        border-radius: 20px;
+        margin-bottom: 50px;
+   }
+    .card{
+        padding: 0px !important;
+        border-radius: 20px !important;
+        border: 1px solid gainsboro !important;
+        height: 300px !important;
+        width: 95%!important;
+        margin-bottom: 0px !important;
+        margin-top: 20px !important;
+        margin: auto ;
+        background-color: rgba(241, 241, 241, 0.822) !important;
+        }
+        div.row{
+            margin: 0px !important;
+        }
+        .card-title{
+            margin: auto;
+            color: black;
+            font-weight: bolder;
+        }
+        .form-outline input{
+            border-radius: 10px;
+            border: 0px;
+            margin-left: 0px;
+        }
+}
