@@ -10,6 +10,6 @@ Branches:
 * Database  ~> MYSQL
 
 3- master : HTML, CSS, REACT TypeScript 
-Link for vedio of master project :
+Demo for Master Project :
 https://drive.google.com/file/d/17zm-xLOElxsQqEQcKS25VwMg45sqfY0-/view?usp=drivesdk
 ~~~
